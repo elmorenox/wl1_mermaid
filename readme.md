@@ -3,22 +3,42 @@
 ## Gantt Chart
 
 ```mermaid
+%%{init: {
+  "theme": "base",
+  "themeVariables": {
+    "primaryColor": "#8fbc8f",
+    "primaryTextColor": "#000000",
+    "primaryBorderColor": "#8fbc8f",
+    "lineColor": "#000000",
+    "sectionBkgColor": "#ffffff",
+    "altSectionBkgColor": "#ffffff",
+    "gridColor": "#cccccc",
+    "section0": "#8fbc8f",
+    "section1": "#cd853f", 
+    "section2": "#808080",
+    "section3": "#d3d3d3",
+    "cScale0": "#8fbc8f",
+    "cScale1": "#cd853f",
+    "cScale2": "#808080",
+    "cScale3": "#d3d3d3"
+  }
+}}%%
 gantt
     title WL1 Project Timeline - Codon Complete by July 15th
     dateFormat YYYY-MM-DD
     axisFormat %m/%d
     
-    section ServiceNow (Taupe Green)
+    section ServiceNow
     SN Delivers Student Instance (EOD Jun 20)     :done, sn1, 2025-06-18, 2025-06-20
     SN Delivers Student Instance Ready            :sn3, after kura2, 7d
     
-    section Kura (Taupe Orange) 
+    section Kura
     Kura Defines WL Config (EOD Jun 20)          :done, kura1, 2025-06-18, 2025-06-20
     Kura Delivers ICE Package to SN              :kura2, after sn1, 9d
     Kura Executes Workload                       :kura4, after sn3, 6d
     Grading Approved by Kura                     :kura8, after codon7, 3d
     
-    section Codon (Grey)
+    section Codon
     Codon Develops Grading Capability            :codon6, 2025-06-23, 2025-07-10
     Codon Grades Workload                        :codon7, after kura4, 2d
     
