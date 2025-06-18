@@ -4,51 +4,45 @@
 
 ```mermaid
 gantt
-    title WL1 Project Timeline - Assignment July 24th
+    title WL1 Project Timeline
     dateFormat YYYY-MM-DD
     axisFormat %m/%d
     
-    section SN Tasks
-    SN-1: Student Instance (Jun 18-20)          :done, sn1, 2025-06-18, 2025-06-20
-    SN-3: Instance Ready (Jun 27-Jul 4)         :sn3, after k2, 7d
+    section ServiceNow
+    SN Delivers Student Instance          :done, sn1, 2025-06-18, 2025-06-20
+    SN Delivers Instance Ready            :sn3, after k2, 7d
     
-    section K Tasks  
-    K-5: WL Config (Jun 18-20)                  :done, k5, 2025-06-18, 2025-06-20
-    K-2: ICE Package (Jun 20-27)                :k2, after sn1, 7d
-    K-4: Execute Workload (Jul 4-10)            :k4, after sn3, 6d
-    K-8: Grading Approval (Jul 12-15)           :k8, after c7, 3d
+    section Kura
+    Kura Defines WL Config                :done, k5, 2025-06-18, 2025-06-20
+    Kura Delivers ICE Package             :k2, after sn1, 7d
+    Kura Executes Workload                :k4, after sn3, 6d
+    Grading Approved by Kura              :k8, after c7, 3d
     
-    section C Tasks
-    C-6: Develop Grading (Jun 23-Jul 10)        :c6, 2025-06-23, 2025-07-10
-    C-7: Grade Workload (Jul 10-12)             :c7, after k4, 2d
+    section Codon
+    Codon Develops Grading                :c6, 2025-06-23, 2025-07-10
+    Codon Grades Workload                 :c7, after k4, 2d
     
-    section Buffer
-    Final Prep (Jul 15-24)                      :buffer, after k8, 9d
-    Assignment Date                              :milestone, assign, 2025-07-24, 0d
+    section Timeline
+    Final Prep Buffer                     :buffer, after k8, 9d
+    WL1 Assignment                        :milestone, assign, 2025-07-24, 0d
 ```
 
-## Key Dates
+## Key Information
 
-| Date | Day | Milestone |
-|------|-----|-----------|
-| **June 18** | Wed | TODAY - Project starts |
-| **June 20** | Fri | SN Student Instance + K WL Config due |
-| **June 23** | Mon | C Development starts |
-| **June 27** | Fri | K ICE Package due |
-| **July 4** | Fri | SN Instance Ready |
-| **July 10** | Thu | K Workload execution + C Development complete |
-| **July 15** | Tue | **CODON COMPLETE** |
-| **July 24** | Thu | **WL1 ASSIGNMENT** |
+**Today:** June 18, 2025 (Wednesday)
 
-## Team Legend
-- **SN** = ServiceNow
-- **K** = Kura  
-- **C** = Codon
+**Critical Dates:**
+- June 20 (Fri): SN Instance + Kura Config complete
+- June 27 (Fri): Kura ICE Package delivered  
+- July 4 (Fri): SN Instance ready for workload
+- July 10 (Thu): Kura workload execution + Codon development complete
+- July 15 (Tue): **CODON COMPLETE** 
+- July 24 (Thu): **WL1 ASSIGNMENT**
 
-## Critical Path
-1. **SN-1** → **K-2** → **SN-3** → **K-4** → **C-7** → **K-8**
-2. **K-5** and **C-6** run in parallel
-3. **9-day buffer** for final preparation
+**Dependencies:**
+- Kura ICE Package → SN Instance Ready → Kura Workload → Codon Grading → Kura Approval
+- Codon Development runs parallel (starts June 23)
+- 9-day buffer for final preparation
 
 ---
-*Ready to copy into GitHub README.md*
+*Copy this entire content into your GitHub README.md file*
