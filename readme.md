@@ -98,22 +98,5 @@ gantt
 | 8b | Final approval for WL1 launch | Kura | ⏳ Pending |
 | 8c | Sign-off for production deployment | Kura | ⏳ Pending |
 
-## Key Milestones
-
-| Milestone | Date | Status |
-|-----------|------|--------|
-| Today | Wednesday, June 18, 2025 | ✅ Current |
-| WL Config Complete | Friday, June 20, 2025 (EOD) | ✅ Complete |
-| ICE Package Delivered | Friday, June 27, 2025 | 🔄 In Progress |
-| Codon Development Starts | Monday, June 23, 2025 | ⏳ Pending |
-| Codon Complete | Tuesday, July 15, 2025 | ⏳ Pending |
-| WL1 Assignment | Thursday, July 24, 2025 | ⏳ Pending |
-
-## Critical Dependencies
-- Task 6 (Codon Development) requires both Task 5 (WL Config) AND Task 4 (WL Execution)
-- Task 7 (Codon Grading) depends on Task 6 completion
-- Task 8 (Approval) gates the final launch preparation
-- 9-day buffer built into timeline for final preparations
-
 ---
 *Last Updated: June 18, 2025*
