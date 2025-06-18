@@ -1,3 +1,8 @@
+# WL1 Project Schedule - Codon Complete by July 15th
+
+## Project Timeline
+
+```mermaid
 gantt
     title WL1 Project Timeline - Assignment July 24th
     dateFormat YYYY-MM-DD
@@ -20,3 +25,30 @@ gantt
     section Buffer
     Final Prep (Jul 15-24)                      :buffer, after k8, 9d
     Assignment Date                              :milestone, assign, 2025-07-24, 0d
+```
+
+## Key Dates
+
+| Date | Day | Milestone |
+|------|-----|-----------|
+| **June 18** | Wed | TODAY - Project starts |
+| **June 20** | Fri | SN Student Instance + K WL Config due |
+| **June 23** | Mon | C Development starts |
+| **June 27** | Fri | K ICE Package due |
+| **July 4** | Fri | SN Instance Ready |
+| **July 10** | Thu | K Workload execution + C Development complete |
+| **July 15** | Tue | **CODON COMPLETE** |
+| **July 24** | Thu | **WL1 ASSIGNMENT** |
+
+## Team Legend
+- **SN** = ServiceNow
+- **K** = Kura  
+- **C** = Codon
+
+## Critical Path
+1. **SN-1** → **K-2** → **SN-3** → **K-4** → **C-7** → **K-8**
+2. **K-5** and **C-6** run in parallel
+3. **9-day buffer** for final preparation
+
+---
+*Ready to copy into GitHub README.md*
