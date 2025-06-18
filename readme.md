@@ -8,14 +8,17 @@ gantt
     dateFormat YYYY-MM-DD
     axisFormat %m/%d
     
-    section All Tasks
+    section ServiceNow
     SN Delivers Student Instance          :sn1, 2025-06-18, 2025-06-20
-    Kura Defines WL Config                :done, k5, 2025-06-18, 2025-06-20
-    Kura Delivers ICE Package             :done, k2, after sn1, 7d
     SN Delivers Instance Ready            :sn3, after k2, 7d
-    Codon Develops Grading                :active, c6, 2025-06-23, 2025-07-10
-    Kura Executes Workload                :done, k4, after sn3, 6d
-    Codon Grades Workload                 :active, c7, after k4, 2d
-    Grading Approved by Kura              :done, k8, after c7, 3d
-    WL1 Assignment                        :milestone, assign, 2025-07-24, 0d
+    
+    section Kura
+    Kura Defines WL Config                :k5, 2025-06-18, 2025-06-20
+    Kura Delivers ICE Package             :k2, after sn1, 7d
+    Kura Executes Workload                :k4, after sn3, 6d
+    Grading Approved by Kura              :k8, after c7, 3d
+    
+    section Codon
+    Codon Develops Grading                :c6, 2025-06-23, 2025-07-10
+    Codon Grades Workload                 :c7, after k4, 2d
 ```
