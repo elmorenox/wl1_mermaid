@@ -1,4 +1,4 @@
-# WL1 Project Schedule - Codon Complete by July 15th
+# WL1 Project Schedule 
 
 ## Project Timeline
 
@@ -38,7 +38,7 @@ gantt
 
 ## Detailed Task Breakdown
 
-### Task 1: SN Delivers Student Instance (EOD Jun 20)
+### Task 1: SN Delivers Student Instance
 | Subtask | Description | Owner | Status |
 |---------|-------------|-------|--------|
 | 1a | ServiceNow provisions base student instance | ServiceNow | ✅ Complete |
@@ -70,7 +70,7 @@ gantt
 | 4c | New incident in incidents table | Kura | ⏳ Pending |
 | 4d | Validate workload completion | Kura | ⏳ Pending |
 
-### Task 5: Kura Defines WL Config (EOD Jun 20)
+### Task 5: Kura Defines WL Config
 | Subtask | Description | Owner | Status |
 |---------|-------------|-------|--------|
 | 5a | WL Configuration delivered EOD June 20th | Kura | ✅ Complete |
