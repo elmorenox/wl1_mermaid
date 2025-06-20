@@ -47,8 +47,8 @@ gantt
 ### Task 1: SN Delivers Student Instances
 | Subtask | Description | Owner Org | Owner | Status |
 |---------|-------------|-----------|-------|--------|
-| 1a | ServiceNow provisions base student instances | ServiceNow | [Name] | ✅ Complete |
-| 1b | Delivery confirmation to project team | ServiceNow | [Name] | ✅ Complete |
+| 1a | ServiceNow provisions base student instances | ServiceNow |  | ✅ Complete |
+| 1b | Delivery confirmation to project team | ServiceNow | | ✅ Complete |
 
 ### Task 3: Proving the Method (FIRST - Critical Decision)
 | Subtask | Description | Owner Org | Owner | Status |
@@ -58,7 +58,7 @@ gantt
 | 3c | Communicate requirements to Codon | Kura | Luis | ⏳ Pending |
 | 3d | Codon attempts programmatic replication | Codon |  | ⏳ Pending |
 | 3e | Validate method success/failure | Kura | Luis | ⏳ Pending |
-| 3f | **GO/NO-GO DECISION** | Kura | [Name] | ⏳ Pending |
+| 3f | **GO/NO-GO DECISION** | Kura | | ⏳ Pending |
 
 ### Task 2: Kura Creates ICE Package (Depends on Task 3 outcome)
 | Subtask | Description | Owner Org | Owner | Status |
@@ -83,7 +83,7 @@ gantt
 | Subtask | Description | Owner Org | Owner | Status |
 |---------|-------------|-----------|-------|--------|
 | 5a | Build production data population capability | Codon | Xavier | ⏳ Pending |
-| 5b | Validate capability before production use | Codon | [Name] | ⏳ Pending |
+| 5b | Validate capability before production use | Codon | Luis | ⏳ Pending |
 
 ### Task 6: Kura Executes Fix (Parallel with Task 5)
 | Subtask | Description | Owner Org | Owner | Status |
@@ -95,7 +95,7 @@ gantt
 | Subtask | Description | Owner Org | Owner | Status |
 |---------|-------------|-----------|-------|--------|
 | 7a | Define WL1 grading components | Kura | Kevin, Luis | ⏳ Pending |
-| 7b | Deliver specifications to Codon | Kura | [Name] | ⏳ Pending |
+| 7b | Deliver specifications to Codon | Kura | Luis | ⏳ Pending |
 
 ### Task 8: Codon Develops Grading Logic (Parallel)
 | Subtask | Description | Owner Org | Owner | Status |
