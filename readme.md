@@ -34,7 +34,7 @@ gantt
 | 3. Proving the Method | Kura || Mon Jun 23 | Wed Jun 25 | 3 days | ⏳ Pending | Task 1 |
 | 2. Kura Creates ICE Package | Kura | | Thu Jun 26 | Fri Jun 27 | 2 days | ⏳ Pending | Task 3 |
 | 10. SN Delivers 20 Production Instances | ServiceNow | | Mon Jun 30 | Tue Jul 1 | 2 days | ⏳ Pending | Task 2 |
-| 4. Kura Defines Real WL Data | Kura | Luis | Mon Jun 30 | Tue Jul 1 | 2 days | ⏳ Pending | Task 2 |
+| 4. Kura Defines Real WL Data | Kura | | Mon Jun 30 | Tue Jul 1 | 2 days | ⏳ Pending | Task 2 |
 | 5. Codon Develops Data Population | Codon |  | Wed Jul 2 | Fri Jul 4 | 3 days | ⏳ Pending | Task 4 |
 | 6. Kura Executes Fix | Kura | | Wed Jul 2 | Thu Jul 3 | 2 days | ⏳ Pending | Task 4 |
 | 7. Kura Defines Components/Subcomponents | Kura | | Fri Jun 20 | Thu Jun 26 | 5 days | ⏳ Pending | None |
