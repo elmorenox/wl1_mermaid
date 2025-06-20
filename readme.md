@@ -48,33 +48,29 @@ gantt
 | Subtask | Description | Owner Org | Owner | Status |
 |---------|-------------|-----------|-------|--------|
 | 1a | ServiceNow provisions base student instances | ServiceNow | [Name] | ✅ Complete |
-| 1b | Basic instance configuration and setup | ServiceNow | [Name] | ✅ Complete |
-| 1c | Delivery confirmation to project team | ServiceNow | [Name] | ✅ Complete |
+| 1b | Delivery confirmation to project team | ServiceNow | [Name] | ✅ Complete |
 
 ### Task 3: Proving the Method (FIRST - Critical Decision)
 | Subtask | Description | Owner Org | Owner | Status |
 |---------|-------------|-----------|-------|--------|
-| 3a | Luis manually creates faulty flow with test data | Kura | Luis | ⏳ Pending |
+| 3a | Kura manually creates faulty flow with test data | Kura | Luis | ⏳ Pending |
 | 3b | Document exactly what was created manually | Kura | Luis | ⏳ Pending |
 | 3c | Communicate requirements to Codon | Kura | Luis | ⏳ Pending |
-| 3d | Codon attempts programmatic replication | Codon | [Name] | ⏳ Pending |
+| 3d | Codon attempts programmatic replication | Codon |  | ⏳ Pending |
 | 3e | Validate method success/failure | Kura | Luis | ⏳ Pending |
 | 3f | **GO/NO-GO DECISION** | Kura | [Name] | ⏳ Pending |
 
 ### Task 2: Kura Creates ICE Package (Depends on Task 3 outcome)
 | Subtask | Description | Owner Org | Owner | Status |
 |---------|-------------|-----------|-------|--------|
-| 2a | IF GO: Create structure-only ICE Package | Kura | [Name] | ⏳ Pending |
-| 2b | IF NO-GO: Create traditional ICE with embedded data | Kura | [Name] | ⏳ Pending |
-| 2c | Package validation and testing | Kura | [Name] | ⏳ Pending |
-| 2d | Delivery to ServiceNow team | Kura | [Name] | ⏳ Pending |
+| 2a | IF GO: Create structure-only ICE Package | Kura | Luis, Kevin | ⏳ Pending |
+| 2b | IF NO-GO: Create traditional ICE with embedded data | Kura | Luis, Kevin | ⏳ Pending |
+| 2c | Delivery to ServiceNow team | Kura | Nicole | ⏳ Pending |
 
 ### Task 10: SN Delivers 20 Production Instances
 | Subtask | Description | Owner Org | Owner | Status |
 |---------|-------------|-----------|-------|--------|
-| 10a | Install ICE Package on 20 instances | ServiceNow | [Name] | ⏳ Pending |
-| 10b | Configure instances for workload | ServiceNow | [Name] | ⏳ Pending |
-| 10c | Validate instance readiness | ServiceNow | [Name] | ⏳ Pending |
+| 10a | Install ICE Package on 20 instances | ServiceNow |  | ⏳ Pending |
 
 ### Task 4: Kura Defines Real WL Data
 | Subtask | Description | Owner Org | Owner | Status |
@@ -86,42 +82,40 @@ gantt
 ### Task 5: Codon Develops Data Population
 | Subtask | Description | Owner Org | Owner | Status |
 |---------|-------------|-----------|-------|--------|
-| 5a | Build production data population capability | Codon | [Name] | ⏳ Pending |
-| 5b | Test with real workload data specifications | Codon | [Name] | ⏳ Pending |
-| 5c | Validate capability before production use | Codon | [Name] | ⏳ Pending |
+| 5a | Build production data population capability | Codon | Xavier | ⏳ Pending |
+| 5b | Validate capability before production use | Codon | [Name] | ⏳ Pending |
 
 ### Task 6: Kura Executes Fix (Parallel with Task 5)
 | Subtask | Description | Owner Org | Owner | Status |
 |---------|-------------|-----------|-------|--------|
-| 6a | Execute workload fix procedures | Kura | [Name] | ⏳ Pending |
-| 6b | Document expected outcomes | Kura | [Name] | ⏳ Pending |
+| 6a | Execute workload fix procedures | Kura | Luis | ⏳ Pending |
+| 6b | Document expected outcomes | Kura | Luis | ⏳ Pending |
 
 ### Task 7: Kura Defines Components/Subcomponents (Independent)
 | Subtask | Description | Owner Org | Owner | Status |
 |---------|-------------|-----------|-------|--------|
-| 7a | Define WL1 grading components | Kura | [Name] | ⏳ Pending |
-| 7b | Define subcomponents for each component | Kura | [Name] | ⏳ Pending |
-| 7c | Deliver specifications to Codon | Kura | [Name] | ⏳ Pending |
+| 7a | Define WL1 grading components | Kura | Kevin, Luis | ⏳ Pending |
+| 7b | Deliver specifications to Codon | Kura | [Name] | ⏳ Pending |
 
 ### Task 8: Codon Develops Grading Logic (Parallel)
 | Subtask | Description | Owner Org | Owner | Status |
 |---------|-------------|-----------|-------|--------|
-| 8a | Develop grading logic based on components | Codon | [Name] | ⏳ Pending |
-| 8b | Build validation for each subcomponent | Codon | [Name] | ⏳ Pending |
-| 8c | Test grading logic | Codon | [Name] | ⏳ Pending |
+| 8a | Develop grading logic based on components | Codon | Xavier | ⏳ Pending |
+| 8b | Build validation for each subcomponent | Codon | Xavier | ⏳ Pending |
+| 8c | Test grading logic | Codon | Luis | ⏳ Pending |
 
 ### Task 11: Populate 20 Instances
 | Subtask | Description | Owner Org | Owner | Status |
 |---------|-------------|-----------|-------|--------|
-| 11a | Use approved data population method | Codon | [Name] | ⏳ Pending |
-| 11b | Populate all 20 instances with workload data | Codon | [Name] | ⏳ Pending |
-| 11c | Validate data consistency across instances | ServiceNow/Codon | [Name] | ⏳ Pending |
+| 11a | Use approved data population method | Codon, Students | ? | ⏳ Pending |
+| 11b | Populate all 20 instances with workload data | Codon | Xavier | ⏳ Pending |
+| 11c | Validate data consistency across instances | Kura | Luis | ⏳ Pending |
 
 ### Task 9: Final Integration & Testing
 | Subtask | Description | Owner Org | Owner | Status |
 |---------|-------------|-----------|-------|--------|
-| 9a | End-to-end testing on populated instances | Codon | [Name] | ⏳ Pending |
-| 9b | Final validation and sign-off | Kura | [Name] | ⏳ Pending |
+| 9a | End-to-end testing on populated instances | Codon, Kura | Luis, Xavier | ⏳ Pending |
+| 9b | Final validation and sign-off | Kura | Luis | ⏳ Pending |
 
 ## Critical Path & Key Changes
 
