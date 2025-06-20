@@ -30,17 +30,17 @@ gantt
 
 | Task | Owner Org | Owner | Start Date | End Date | Duration | Status | Dependencies |
 |------|-----------|-------|------------|----------|----------|--------|--------------|
-| 1. SN Delivers Student Instances | ServiceNow | [Name] | Wed Jun 18 | Fri Jun 20 | 3 days | ✅ Complete | None |
-| 3. Proving the Method | Kura | Luis | Mon Jun 23 | Wed Jun 25 | 3 days | ⏳ Pending | Task 1 |
-| 2. Kura Creates ICE Package | Kura | [Name] | Thu Jun 26 | Fri Jun 27 | 2 days | ⏳ Pending | Task 3 |
-| 10. SN Delivers 20 Production Instances | ServiceNow | [Name] | Mon Jun 30 | Tue Jul 1 | 2 days | ⏳ Pending | Task 2 |
+| 1. SN Delivers Student Instances | ServiceNow | | Wed Jun 18 | Fri Jun 20 | 3 days | ✅ Complete | None |
+| 3. Proving the Method | Kura || Mon Jun 23 | Wed Jun 25 | 3 days | ⏳ Pending | Task 1 |
+| 2. Kura Creates ICE Package | Kura | | Thu Jun 26 | Fri Jun 27 | 2 days | ⏳ Pending | Task 3 |
+| 10. SN Delivers 20 Production Instances | ServiceNow | | Mon Jun 30 | Tue Jul 1 | 2 days | ⏳ Pending | Task 2 |
 | 4. Kura Defines Real WL Data | Kura | Luis | Mon Jun 30 | Tue Jul 1 | 2 days | ⏳ Pending | Task 2 |
-| 5. Codon Develops Data Population | Codon | [Name] | Wed Jul 2 | Fri Jul 4 | 3 days | ⏳ Pending | Task 4 |
-| 6. Kura Executes Fix | Kura | [Name] | Wed Jul 2 | Thu Jul 3 | 2 days | ⏳ Pending | Task 4 |
-| 7. Kura Defines Components/Subcomponents | Kura | [Name] | Fri Jun 20 | Thu Jun 26 | 5 days | ⏳ Pending | None |
-| 8. Codon Develops Grading Logic | Codon | [Name] | Fri Jun 27 | Tue Jul 1 | 3 days | ⏳ Pending | Task 7 |
-| 11. Populate 20 Instances | ServiceNow/Codon | [Name] | Mon Jul 7 | Mon Jul 7 | 1 day | ⏳ Pending | Task 5 |
-| 9. Final Integration & Testing | Codon | [Name] | Mon Jul 7 | Mon Jul 7 | 1 day | ⏳ Pending | Tasks 11, 8, 6 |
+| 5. Codon Develops Data Population | Codon |  | Wed Jul 2 | Fri Jul 4 | 3 days | ⏳ Pending | Task 4 |
+| 6. Kura Executes Fix | Kura | | Wed Jul 2 | Thu Jul 3 | 2 days | ⏳ Pending | Task 4 |
+| 7. Kura Defines Components/Subcomponents | Kura | | Fri Jun 20 | Thu Jun 26 | 5 days | ⏳ Pending | None |
+| 8. Codon Develops Grading Logic | Codon | | Fri Jun 27 | Tue Jul 1 | 3 days | ⏳ Pending | Task 7 |
+| 11. Populate 20 Instances | ServiceNow/Codon | | Mon Jul 7 | Mon Jul 7 | 1 day | ⏳ Pending | Task 5 |
+| 9. Final Integration & Testing | Codon || Mon Jul 7 | Mon Jul 7 | 1 day | ⏳ Pending | Tasks 11, 8, 6 |
 
 ## Detailed Task Breakdown
 
