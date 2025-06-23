@@ -1,4 +1,4 @@
-# WL1 Project Schedule - Corrected Flow
+# WL1 Project Schedule
 
 ## Project Timeline
 
