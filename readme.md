@@ -14,7 +14,7 @@ gantt
     11. Populate 20 Instances             :sn11, after c5, 1d
     
     section Kura
-    3. Proving the Method                 :k3, after sn1, 3d
+    3. Proving the Method                 :k3, 2025-06-23, 2025-06-25
     2. Kura Creates ICE Package           :k2, after k3, 2d
     4. Kura Defines Real WL Data          :k4, after k2, 2d
     6. Kura Executes Fix                  :k6, after k4, 2d
@@ -31,16 +31,16 @@ gantt
 | Task | Owner Org | Owner | Start Date | End Date | Duration | Status | Dependencies |
 |------|-----------|-------|------------|----------|----------|--------|--------------|
 | 1. SN Delivers Student Instances | ServiceNow | | Wed Jun 18 | Fri Jun 20 | 3 days | ✅ Complete | None |
-| 3. Proving the Method | Kura || Mon Jun 23 | Wed Jun 25 | 3 days | ⏳ Pending | Task 1 |
-| 2. Kura Creates ICE Package | Kura | | Thu Jun 26 | Fri Jun 27 | 2 days | ⏳ Pending | Task 3 |
+| 3. Proving the Method | Kura | Luis | Mon Jun 23 | Wed Jun 25 | 3 days | ⏳ Pending | Task 1 |
+| 2. Kura Creates ICE Package | Kura | Luis, Kevin | Thu Jun 26 | Fri Jun 27 | 2 days | ⏳ Pending | Task 3 |
 | 10. SN Delivers 20 Production Instances | ServiceNow | | Mon Jun 30 | Tue Jul 1 | 2 days | ⏳ Pending | Task 2 |
-| 4. Kura Defines Real WL Data | Kura | | Mon Jun 30 | Tue Jul 1 | 2 days | ⏳ Pending | Task 2 |
-| 5. Codon Develops Data Population | Codon |  | Wed Jul 2 | Fri Jul 4 | 3 days | ⏳ Pending | Task 4 |
-| 6. Kura Executes Fix | Kura | | Wed Jul 2 | Thu Jul 3 | 2 days | ⏳ Pending | Task 4 |
-| 7. Kura Defines Components/Subcomponents | Kura | | Fri Jun 20 | Thu Jun 26 | 5 days | ⏳ Pending | None |
-| 8. Codon Develops Grading Logic | Codon | | Fri Jun 27 | Tue Jul 1 | 3 days | ⏳ Pending | Task 7 |
-| 11. Populate 20 Instances | ServiceNow/Codon | | Mon Jul 7 | Mon Jul 7 | 1 day | ⏳ Pending | Task 5 |
-| 9. Final Integration & Testing | Codon || Mon Jul 7 | Mon Jul 7 | 1 day | ⏳ Pending | Tasks 11, 8, 6 |
+| 4. Kura Defines Real WL Data | Kura | Luis | Mon Jun 30 | Tue Jul 1 | 2 days | ⏳ Pending | Task 2 |
+| 5. Codon Develops Data Population | Codon | Xavier | Wed Jul 2 | Fri Jul 4 | 3 days | ⏳ Pending | Task 4 |
+| 6. Kura Executes Fix | Kura | Luis | Wed Jul 2 | Thu Jul 3 | 2 days | ⏳ Pending | Task 4 |
+| 7. Kura Defines Components/Subcomponents | Kura | Kevin, Luis | Fri Jun 20 | Thu Jun 26 | 5 days | ⏳ Pending | None |
+| 8. Codon Develops Grading Logic | Codon | Xavier | Fri Jun 27 | Tue Jul 1 | 3 days | ⏳ Pending | Task 7 |
+| 11. Populate 20 Instances | ServiceNow/Codon | Xavier | Mon Jul 7 | Mon Jul 7 | 1 day | ⏳ Pending | Task 5 |
+| 9. Final Integration & Testing | Codon | Luis, Xavier | Mon Jul 7 | Mon Jul 7 | 1 day | ⏳ Pending | Tasks 11, 8, 6 |
 
 ## Detailed Task Breakdown
 
@@ -50,17 +50,17 @@ gantt
 | 1a | ServiceNow provisions base student instances | ServiceNow |  | ✅ Complete |
 | 1b | Delivery confirmation to project team | ServiceNow | | ✅ Complete |
 
-### Task 3: Proving the Method (FIRST - Critical Decision)
+### Task 3: Proving the Method
 | Subtask | Description | Owner Org | Owner | Status |
 |---------|-------------|-----------|-------|--------|
 | 3a | Kura manually creates faulty flow with test data | Kura | Luis | ⏳ Pending |
 | 3b | Document exactly what was created manually | Kura | Luis | ⏳ Pending |
 | 3c | Communicate requirements to Codon | Kura | Luis | ⏳ Pending |
-| 3d | Codon attempts programmatic replication | Codon |  | ⏳ Pending |
+| 3d | Codon attempts programmatic replication | Codon | Xavier | ⏳ Pending |
 | 3e | Validate method success/failure | Kura | Luis | ⏳ Pending |
-| 3f | **GO/NO-GO DECISION** | Kura | | ⏳ Pending |
+| 3f | **GO/NO-GO DECISION** | Kura | Luis | ⏳ Pending |
 
-### Task 2: Kura Creates ICE Package (Depends on Task 3 outcome)
+### Task 2: Kura Creates ICE Package
 | Subtask | Description | Owner Org | Owner | Status |
 |---------|-------------|-----------|-------|--------|
 | 2a | IF GO: Create structure-only ICE Package | Kura | Luis, Kevin | ⏳ Pending |
@@ -85,19 +85,19 @@ gantt
 | 5a | Build production data population capability | Codon | Xavier | ⏳ Pending |
 | 5b | Validate capability before production use | Codon | Luis | ⏳ Pending |
 
-### Task 6: Kura Executes Fix (Parallel with Task 5)
+### Task 6: Kura Executes Fix
 | Subtask | Description | Owner Org | Owner | Status |
 |---------|-------------|-----------|-------|--------|
 | 6a | Execute workload fix procedures | Kura | Luis | ⏳ Pending |
 | 6b | Document expected outcomes | Kura | Luis | ⏳ Pending |
 
-### Task 7: Kura Defines Components/Subcomponents (Independent)
+### Task 7: Kura Defines Components/Subcomponents
 | Subtask | Description | Owner Org | Owner | Status |
 |---------|-------------|-----------|-------|--------|
 | 7a | Define WL1 grading components | Kura | Kevin, Luis | ⏳ Pending |
 | 7b | Deliver specifications to Codon | Kura | Luis | ⏳ Pending |
 
-### Task 8: Codon Develops Grading Logic (Parallel)
+### Task 8: Codon Develops Grading Logic
 | Subtask | Description | Owner Org | Owner | Status |
 |---------|-------------|-----------|-------|--------|
 | 8a | Develop grading logic based on components | Codon | Xavier | ⏳ Pending |
