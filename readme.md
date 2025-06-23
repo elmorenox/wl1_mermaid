@@ -117,9 +117,5 @@ gantt
 | 9a | End-to-end testing on populated instances | Codon, Kura | Luis, Xavier | ⏳ Pending |
 | 9b | Final validation and sign-off | Kura | Luis | ⏳ Pending |
 
-## Critical Path & Key Changes
-
-**⚠️ CRITICAL DECISION POINT:**
-- Task 3 determines if we proceed with new method or fallback to traditional ICE approach
 ---
 *Last Updated: June 20, 2025*
