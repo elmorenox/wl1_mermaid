@@ -21,9 +21,9 @@ gantt
     
     section Codon
     5. Codon Develops Data Population     :c5, after k4, 3d
-    11. Codon Populates 20 Instances      :c11, after c5, 2d
     8. Codon Develops Grading Logic       :c8, after k7, 4d
     9. Final Integration & Testing        :c9, after c11 c8 k6, 2d
+    11. Codon Populates 20 Instances      :c11, after c5, 2d
 ```
 
 ## Project Schedule Table
@@ -121,3 +121,5 @@ gantt
 
 ---
 *Last Updated: June 20, 2025*
+
+
