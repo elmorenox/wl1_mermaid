@@ -14,8 +14,8 @@ gantt
     11. Populate 20 Instances             :sn11, after c5, 2d
     
     section Kura
-    3. Proving the Method                 :k3, 2025-06-23, 2025-06-25
-    2. Kura Creates ICE Package           :k2, after k3, 2d
+    2. Proving the Method                 :k3, 2025-06-23, 2025-06-25
+    3. Kura Creates ICE Package           :k2, after k3, 2d
     4. Kura Defines Real WL Data          :k4, after k2, 3d
     6. Kura Executes Fix                  :k6, after k4, 2d
     7. Kura Defines Components/Subcomponents :k7, 2025-06-23, 2025-06-27
