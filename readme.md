@@ -33,7 +33,7 @@ gantt
 | 1. SN Delivers Student Instances | ServiceNow | | Wed Jun 18 | Fri Jun 20 | 3 days | ✅ Complete | None |
 | 2. Proving Student Instance Data Method | Kura | Luis | Mon Jun 23 | Wed Jun 25 | 3 days | 🔄 Ongoing | Task 1 |
 | 3. Kura Creates ICE Package | Kura | Luis, Kevin | Thu Jun 26 | Fri Jun 27 | 2 days | ⏳ Pending | Task 2 |
-| 7. Kura Defines Components/Subcomponents | Kura | Kevin, Luis | Mon Jun 23 | Fri Jun 27 | 5 days | ⏳ Pending | None |
+| 7. Kura Defines Components/Subcomponents | Kura | Kevin, Luis | Mon Jun 23 | Fri Jun 27 | 5 days | 🔄 Ongoing| None |
 | 10. SN Delivers 20 Production Instances | ServiceNow | | Mon Jun 30 | Wed Jul 2 | 3 days | ⏳ Pending | Task 3 |
 | 4. Kura Defines Real WL Data | Kura | Luis | Mon Jun 30 | Wed Jul 2 | 3 days | ⏳ Pending | Task 3 |
 | 8. Codon Develops Grading Logic | Codon | Xavier | Mon Jun 30 | Thu Jul 3 | 4 days | ⏳ Pending | Task 7 |
