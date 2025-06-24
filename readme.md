@@ -116,7 +116,7 @@ gantt
 ### Task 9: Final Integration & Testing
 | Subtask | Description | Owner Org | Owner | Status |
 |---------|-------------|-----------|-------|--------|
-| 9a | End-to-end testing on populated instances | Codon, Kura | Luis, Xavier | ⏳ Pending |
+| 9a | Spot checking student instances | Codon, Kura | Luis, Kevin ,Xavier | ⏳ Pending |
 | 9b | Final validation and sign-off | Kura | Luis | ⏳ Pending |
 
 ---
