@@ -67,7 +67,8 @@ gantt
 |---------|-------------|-----------|-------|--------|
 | 3a | IF GO: Create structure-only ICE Package | Kura | Luis, Kevin | ⏳ Pending |
 | 3b | IF NO-GO: Create traditional ICE with embedded data | Kura | Luis, Kevin | ⏳ Pending |
-| 3c | Delivery to ServiceNow team | Kura | Nicole | ⏳ Pending |
+| 3d | Create ICE Package | Kura | Luis | ⏳ Pending |
+| 3e | Delivery to ServiceNow team | Kura | Nicole | ⏳ Pending |
 
 ### Task 10: SN Delivers 20 Production Instances
 | Subtask | Description | Owner Org | Owner | Status |
@@ -79,7 +80,6 @@ gantt
 |---------|-------------|-----------|-------|--------|
 | 4a | Define actual workload data requirements | Kura | Luis | ⏳ Pending |
 | 4b | Create faulty scenario specifications | Kura | Luis | ⏳ Pending |
-| 4c | Document data specifications for population | Kura | Luis | ⏳ Pending |
 
 ### Task 5: Codon Develops Data Population
 | Subtask | Description | Owner Org | Owner | Status |
@@ -91,7 +91,6 @@ gantt
 | Subtask | Description | Owner Org | Owner | Status |
 |---------|-------------|-----------|-------|--------|
 | 6a | Execute workload fix procedures | Kura | Luis | ⏳ Pending |
-| 6b | Document expected outcomes | Kura | Luis | ⏳ Pending |
 
 ### Task 7: Kura Defines Components/Subcomponents
 | Subtask | Description | Owner Org | Owner | Status |
