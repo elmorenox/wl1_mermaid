@@ -13,7 +13,7 @@ gantt
     10. SN Delivers 20 Production Instances :sn10, after k3, 3d
     
     section Kura
-    2. Proving Student Instance Data Method :k2, 2025-06-23, 2025-06-25
+    2. Proving Student Instance Data Method :k2, 2025-06-23, 2025-06-27
     3. Kura Creates ICE Package           :k3, after k2, 2d
     4. Kura Defines Real WL Data          :k4, after k3, 3d
     6. Kura Executes Workload             :k6, after k4, 2d
