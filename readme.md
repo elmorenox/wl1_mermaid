@@ -57,7 +57,7 @@ gantt
 | 2c | Luis configures student instance to workload ready state to create data and artifacts for Codon | Kura | Luis | 🔄 Ongoing |
 | 2d | URL for Student Workload Configuration Instance | Kura | Luis | 🔄 Ongoing |
 | 2e | Basic auth for Student Workload Instance | Kura | Luis | 🔄 Ongoing |
-| 2f | XML Update Set from WL Instance | Kura | Luis | 🔄 Ongoing |
+| 2f | XML Update Set from WL Instance | Kura | Luis | ✅ Complete |
 | 2g | URL for Target Student Workload Configuration Instance | Kura | Luis | 🔄 Ongoing |
 | 2h | Basic auth for Student Workload Instance | Kura | Luis | 🔄 Ongoing |
 | 2i | Codon attempts programmatic replication | Codon | Xavier | ⏳ Pending |
