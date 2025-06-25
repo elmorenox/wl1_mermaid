@@ -56,10 +56,10 @@ gantt
 | 2a | Kevin creates Workload Prep Instruction | Kura | Kevin | ✅ Complete |
 | 2c | Luis configures student instance to workload ready state to create data and artifacts for Codon | Kura | Luis | ✅ Complete  |
 | 2d | URL for Student Workload Configuration Instance | Kura | Luis | 🔄 Ongoing |
-| 2e | Basic auth for Student Workload Instance | Kura | Luis | 🔄 Ongoing |
+| 2e | Basic auth for Student Workload Instance | Kura | Luis | ✅ Complete |
 | 2f | XML Update Set from WL Instance | Kura | Luis | ✅ Complete |
-| 2g | URL for Target Student Workload Configuration Instance | Kura | Luis | 🔄 Ongoing |
-| 2h | Basic auth for Student Workload Instance | Kura | Luis | 🔄 Ongoing |
+| 2g | URL for Target Student Workload Configuration Instance | Kura | Luis | ✅ Complete |
+| 2h | Basic auth for Student Workload Instance | Kura | Luis | ✅ Complete |
 | 2i | Codon attempts programmatic replication | Codon | Xavier | ⏳ Pending |
 
 ### Task 3: Kura Creates ICE Package
