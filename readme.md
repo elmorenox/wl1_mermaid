@@ -54,7 +54,7 @@ gantt
 | Subtask | Description | Owner Org | Owner | Status |
 |---------|-------------|-----------|-------|--------|
 | 2a | Kevin creates Workload Prep Instruction | Kura | Kevin | ✅ Complete |
-| 2c | Luis configures student instance to workload ready state to create data and artifacts for Codon | Kura | Luis | 🔄 Ongoing |
+| 2c | Luis configures student instance to workload ready state to create data and artifacts for Codon | Kura | Luis | ✅ Complete  |
 | 2d | URL for Student Workload Configuration Instance | Kura | Luis | 🔄 Ongoing |
 | 2e | Basic auth for Student Workload Instance | Kura | Luis | 🔄 Ongoing |
 | 2f | XML Update Set from WL Instance | Kura | Luis | ✅ Complete |
