@@ -132,32 +132,6 @@
 </sys_update_xml>
 <sys_update_xml action="INSERT_OR_UPDATE">
 <action>INSERT_OR_UPDATE</action>
-<application display_value="CMDB Workspace">c8ab76825371201032b7ddeeff7b1280</application>
-<category>customer</category>
-<comments/>
-<name>sn_cmdb_ws_ms_class_metadata_ce9f62555bd50110693e7da52d81c7bd</name>
-<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_cmdb_ws_ms_class_metadata"><sn_cmdb_ws_ms_class_metadata action="INSERT_OR_UPDATE"><ci_count_percent>100</ci_count_percent><sys_class_name>sn_cmdb_ws_ms_class_metadata</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-26 09:01:20</sys_created_on><sys_domain>global</sys_domain><sys_id>ce9f62555bd50110693e7da52d81c7bd</sys_id><sys_mod_count>18</sys_mod_count><sys_name/><sys_package display_value="CMDB Workspace" source="sn_cmdb_ws">c8ab76825371201032b7ddeeff7b1280</sys_package><sys_policy/><sys_scope display_value="CMDB Workspace">c8ab76825371201032b7ddeeff7b1280</sys_scope><sys_update_name>sn_cmdb_ws_ms_class_metadata_ce9f62555bd50110693e7da52d81c7bd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-24 23:30:00</sys_updated_on><table>cmdb_ci_hardware</table></sn_cmdb_ws_ms_class_metadata></record_update>]]></payload>
-<payload_hash>-1966656346</payload_hash>
-<remote_update_set display_value="Kura Workload 1">bc20edd6b81e62107f44046e3758c0e7</remote_update_set>
-<replace_on_upgrade>false</replace_on_upgrade>
-<sys_created_by>admin</sys_created_by>
-<sys_created_on>2025-06-24 23:57:37</sys_created_on>
-<sys_id>b820edd6b81e62107f44046e3758c0e8</sys_id>
-<sys_mod_count>0</sys_mod_count>
-<sys_recorded_at>197a446eb5d0000001</sys_recorded_at>
-<sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2025-06-24 23:57:37</sys_updated_on>
-<table>cmdb_ci_hardware</table>
-<target_name/>
-<type>CMDB Workspace Multisource Class Metadat</type>
-<update_domain>global</update_domain>
-<update_guid>d8d911120e1e621071480c0bde7774a5</update_guid>
-<update_guid_history>d8d911120e1e621071480c0bde7774a5:-1966656346,58d911120b1e621012acc9256858c3a3:-2121401785,2230544aa4d22210a3fa8ec22d0ce211:-1966656346,6e30544a2ed222101a0ba51f986a180e:-2121401785,38a68f2db656a610fe40da4db4dcc4da:-1966656346,38a68f2da056a610b37ce58c217718d8:-2121401785,cb0d3919795e261057cc657fc6ea473b:-1966656346,cb0d39199c5e2610c61af629e94fcb39:-2121401785,a5733005ca56e210416a804d2773cecc:-1966656346,a57330052e56e210d47ed42f3fe327ca:-2121401785,e7d9ebeca51e6210eabded432750dcbc:-1966656346,e7d9ebec541e621001092eb2df2b3aba:-2121401785,f940ea9c28162210bf99b1267dd473a4:-1966656346,b940aa9c5416221083ff18317c26e4db:-2121401785,ab9d6c10d512221071d8bb326cbaa102:-1966656346,539d2c10c6122210fef2e5c9ddaeceff:-2121401785,3c77413854292210836552f23b501c15:-1966656346,78774138ba2922101e5b37d8351ca013:-2121401785,bc774138d6292210f259c7e99ecba711:-1966656346</update_guid_history>
-<update_set display_value=""/>
-<view/>
-</sys_update_xml>
-<sys_update_xml action="INSERT_OR_UPDATE">
-<action>INSERT_OR_UPDATE</action>
 <application display_value="Global">global</application>
 <category>customer</category>
 <comments/>
