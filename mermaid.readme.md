@@ -23,7 +23,8 @@ gantt
     section Codon
     7. Codon Develops Grading Logic       :c7, 2025-06-30, 2025-07-11
     9. Codon Populates Student Instances  :c9, 2025-07-11, 2025-07-14
-    10. Sign Off                          :c10, 2025-07-15, 2025-07-17
+    10. Student Access to Codon          :c10, 2025-07-15, 2025-07-16
+    11. Sign Off                          :c11, 2025-07-16, 2025-07-17
 ```
 
 ## Project Schedule Table
@@ -37,9 +38,10 @@ gantt
 | 5. Kura Executes Workload | Kura | Luis | Thu Jul 3 | Mon Jul 7 | 3 days | ✅ Complete | Task 4 |
 | 6. Kura Defines Components/Subcomponents | Kura | Kevin, Luis | Mon Jun 23 | Fri Jun 27 | 5 days | ✅ Complete | None |
 | 7. Codon Develops Grading Logic | Codon | Xavier | Mon Jun 30 | Fri Jul 11 | 9 days | 🔄 Ongoing | Task 6 |
-| 8. SN Delivers 20 Production Student Instances | ServiceNow | | Mon Jul 7 | Thu Jul 10 | 4 days | ⏳ Pending | Task 5 |
-| 9. Codon Populates Student Instances | Codon | Xavier | Fri Jul 11 | Mon Jul 14 | 3 days | ⏳ Pending | Tasks 7, 8 |
-| 10. Sign Off | Codon | Luis, Xavier | Tue Jul 15 | Thu Jul 17 | 3 days | ⏳ Pending | Task 9 |
+| 8. SN Delivers 20 Production Student Instances | ServiceNow | | Mon Jul 7 | Thu Jul 10 | 4 days | <span style="color:red">⏳ Pending</span> | Task 5 |
+| 9. Codon Populates Student Instances | Codon | Xavier | Fri Jul 11 | Mon Jul 14 | 3 days | <span style="color:red">⏳ Pending</span> | Tasks 7, 8 |
+| 10. Student Access to Codon | Codon, Kura | Xavier, Luis | Tue Jul 15 | Wed Jul 16 | 2 days | <span style="color:red">⏳ Pending</span> | Task 9 |
+| 11. Sign Off | Codon | Luis, Xavier | Wed Jul 16 | Thu Jul 17 | 2 days | ⏳ Pending | Task 10 |
 
 ## Detailed Task Breakdown
 
@@ -97,20 +99,26 @@ gantt
 ### Task 8: SN Delivers 20 Production Student Instances
 | Subtask | Description | Owner Org | Owner | Status |
 |---------|-------------|-----------|-------|--------|
-| 8a | Install ICE Package on 20 instances | ServiceNow |  | ⏳ Pending |
+| 8a | Install ICE Package on 20 instances | ServiceNow |  | <span style="color:red">⏳ Pending</span> |
 
 ### Task 9: Codon Populates Student Instances
 | Subtask | Description | Owner Org | Owner | Status |
 |---------|-------------|-----------|-------|--------|
-| 9a | Use approved data population method | Codon, Students | ? | ⏳ Pending |
-| 9b | Populate all 20 instances with workload data | Codon | Xavier | ⏳ Pending |
-| 9c | Validate data consistency across instances | Kura | Luis | ⏳ Pending |
+| 9a | Use approved data population method | Codon, Students | ? | <span style="color:red">⏳ Pending</span> |
+| 9b | Populate all 20 instances with workload data | Codon | Xavier | <span style="color:red">⏳ Pending</span> |
+| 9c | Validate data consistency across instances | Kura | Luis | <span style="color:red">⏳ Pending</span> |
 
-### Task 10: Sign Off
+### Task 10: Student Access to Codon
 | Subtask | Description | Owner Org | Owner | Status |
 |---------|-------------|-----------|-------|--------|
-| 10a | End-to-end testing on populated instances | Codon, Kura | Luis, Xavier | ⏳ Pending |
-| 10b | Final validation and sign-off | Kura | Luis | ⏳ Pending |
+| 10a | Create SN platform on Codon | Codon | Xavier | <span style="color:red">⏳ Pending</span> |
+| 10b | Create student profiles with Github on Codon | Kura | Luis | <span style="color:red">⏳ Pending</span> |
+
+### Task 11: Sign Off
+| Subtask | Description | Owner Org | Owner | Status |
+|---------|-------------|-----------|-------|--------|
+| 11a | End-to-end testing on populated instances | Codon, Kura | Luis, Xavier | ⏳ Pending |
+| 11b | Final validation and sign-off | Kura | Luis | ⏳ Pending |
 
 ---
-*Last Updated: July 8, 2025*
+*Last Updated: July 16, 2025*
