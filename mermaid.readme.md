@@ -93,25 +93,25 @@ gantt
 | Subtask | Description | Owner Org | Owner | Status |
 |---------|-------------|-----------|-------|--------|
 | 7a | Develop grading logic based on components | Codon | Xavier | 🔄 Ongoing |
-| 7b | Build validation for each subcomponent | Codon | Xavier | ⏳ Pending |
+| 7b | Build validation for each subcomponent | Codon | Xavier | 🔄 Ongoing  |
 | 7c | Test grading logic | Codon | Luis | ⏳ Pending |
 
 ### Task 8: SN Delivers 20 Production Student Instances
 | Subtask | Description | Owner Org | Owner | Status |
 |---------|-------------|-----------|-------|--------|
-| 8a | Install ICE Package on 20 instances | ServiceNow |  | <span style="color:red">⏳ Pending</span> |
+| 8a | Install ICE Package on 20 instances | ServiceNow |  | N/A |
 
 ### Task 9: Codon Populates Student Instances
 | Subtask | Description | Owner Org | Owner | Status |
 |---------|-------------|-----------|-------|--------|
-| 9a | Use approved data population method | Codon, Students | ? | <span style="color:red">⏳ Pending</span> |
-| 9b | Populate all 20 instances with workload data | Codon | Xavier | <span style="color:red">⏳ Pending</span> |
+| 9a | Use approved data population method | Codon, Students | ? | <span style="color:red">🔄 Ongoing </span> |
+| 9b | Populate all 20 instances with workload data | Codon | Xavier | <span style="color:red">🔄 Ongoing </span> |
 | 9c | Validate data consistency across instances | Kura | Luis | <span style="color:red">⏳ Pending</span> |
 
 ### Task 10: Student Access to Codon
 | Subtask | Description | Owner Org | Owner | Status |
 |---------|-------------|-----------|-------|--------|
-| 10a | Create SN platform on Codon | Codon | Xavier | <span style="color:red">⏳ Pending</span> |
+| 10a | Create SN platform on Codon | Codon | Xavier | <span style="color:red">🔄 Ongoing </span> |
 | 10b | Create student profiles with Github on Codon | Kura | Luis | <span style="color:red">⏳ Pending</span> |
 
 ### Task 11: Sign Off
